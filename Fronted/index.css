@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background: rgb(205, 200, 200);
+}
+.container {
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.6);
+    margin: 20px auto;
+    height: fit-content;
+    width: 60vh ;
+    border-radius: 5px;
+    padding: 5px;
+    align-items: center;
+    background-color: rgb(200, 198, 195);
+    justify-content: center;
+}
+.sub-container {
+    height: fit-content;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    border: 1px solid blue;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+p {
+    text-align: center;
+}
+span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#btn {
+    padding: 10px;
+    font-size: large;
+    border-radius: 5px;
+    background: blue;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 600;        
+}
+input {
+    border: none;
+    width: 70%;
+    padding: 10px;
+    font-size: large;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+input:focus {
+    outline: none;
+}
+#download {
+    border: none;
+    background: red;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    margin: auto;
+    width: 50%;
+    border-radius: 5px;
+    font-weight: 600;
+}
+.Media {
+    display: flex;
+    color: white;
+    margin-top: 5px;
+    gap: 5px;
+    justify-content: center;
+}
+.Media button {
+    background: blue;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 11px;
+    border-radius: 5px;
+    font-weight: 600;    
+    width: 15%;
+}
+#download {
+    box-shadow: 0px 5px 05px rgba(0, 0, 0, 0.2);
+}
+#selected {
+    text-align: center;
+    font-size: 15px;
+    margin-top: 5px;
+}
+.spinner {
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #3498db;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  animation: spin 2s linear infinite;
+  margin: 0px auto;
+  display: none;
+  margin-top: 5px;
+}
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+.progress {
+     display: flex;
+    justify-content: center;
+    color: #3c6289;
+    font-weight: 600;
+    margin-top: 10px;
+  }
+      
